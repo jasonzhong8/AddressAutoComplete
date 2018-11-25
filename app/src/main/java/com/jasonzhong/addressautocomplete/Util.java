@@ -1,7 +1,6 @@
 package com.jasonzhong.addressautocomplete;
 
 import android.content.Context;
-import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -62,16 +61,6 @@ public class Util {
                 alertDialog.dismiss();
             }
         });
-        /*alertDialogBuilder.setTitle(context.getResources().getString(R.string.dialog_title));
-        alertDialogBuilder.setMessage(context.getResources().getString(R.string.dialog_message));
-        alertDialogBuilder.setPositiveButton("OK",
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface arg0, int arg1) {
-                    }
-                });*/
-
-
         alertDialog.show();
     }
 }
