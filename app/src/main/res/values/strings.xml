@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AddressAutoComplete</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="clear_text">Clear text</string>
+    <string name="enter_address_label">What\'s your address?</string>
+    <string name="enter_address_hint">e.g. 123 Main Street</string>
+
+    <string name="enter_insurer_label">What\'s your current insurer?</string>
+    <string name="enter_insurer_hint">e.g. Geico</string>
+
+    <string name="next">NEXT</string>
+
+    <string name="dialog_title">No Option Selected</string>
+    <string name="dialog_message">Select one of the options to continue.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
