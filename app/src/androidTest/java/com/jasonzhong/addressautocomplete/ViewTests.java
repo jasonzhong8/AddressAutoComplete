@@ -9,12 +9,14 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 
 import static android.support.test.espresso.Espresso.onView;
+import static android.support.test.espresso.action.ViewActions.clearText;
 import static android.support.test.espresso.action.ViewActions.click;
+import static android.support.test.espresso.action.ViewActions.typeText;
 import static android.support.test.espresso.matcher.ViewMatchers.withId;
 
 @RunWith(AndroidJUnit4.class)
 @LargeTest
-public class DialogTests {
+public class ViewTests {
 
 
     @Rule
@@ -29,6 +31,7 @@ public class DialogTests {
 
     @Test
     public void TestAutoComplete() {
+        onView(withId(R.id.autocomplete_text)).perform(clearText(), typeText("554 concord"));
         onView(withId(R.id.next_textView)).perform(click());
     }
 }

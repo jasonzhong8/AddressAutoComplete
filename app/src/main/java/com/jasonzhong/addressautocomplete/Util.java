@@ -42,7 +42,6 @@ public class Util {
                 String carrier = (String) uniJSONArray.get(i);
                 allNames.add(carrier);
             }
-            Log.d("", "" + allNames.size());
         } catch (JSONException e) {
             e.printStackTrace();
         }
